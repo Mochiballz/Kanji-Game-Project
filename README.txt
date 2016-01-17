@@ -28,7 +28,7 @@ screen.
 
 * Game not limited to time limit
 ** Not limited to 3x3 grid
-*** English meaning could be replaced w/ furigana equiv.
+*** English meaning could be replaced w/ furigana equivalent
 † Could use keyboard input
 
 --VERSION UPDATES--
