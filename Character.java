@@ -23,7 +23,7 @@ public class Character {
     onyomi = "";
     kunyomi = "";
     englishMean = "";
-    examples = new ArrayList();
+    examples = new ArrayList<String>();
   }
 
   public static void main (String [] args) {
