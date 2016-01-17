@@ -26,4 +26,9 @@ screen.
     IF USER CLICKED CHAR† != PROMPT [No points given, remains until correct char
     is clicked]
 
+* Game not limited to time limit
+** Not limited to 3x3 grid
+*** English meaning could be replaced w/ furigana equiv.
+† Could use keyboard input
+
 --VERSION UPDATES--
