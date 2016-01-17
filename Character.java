@@ -26,8 +26,22 @@ public class Character {
     examples = new ArrayList<String>();
   }
 
-  public static void main (String [] args) {
+  public Character(int index, String kanji, String on, String kun, String en, ArrayList<String> ex) {
+    indexNum = index;
+    kanjiChar = kanji;
+    onyomi = on;
+    kunyomi = kun;
+    englishMean = en;
+    examples = ex;
+  }
 
+  public static void main (String [] args) {
+    ArrayList<String> hiExamples = new ArrayList<String>();
+    hiExamples.add("毎日");
+    hiExamples.add("昨日");
+
+    Character hi = new Character(312,"日","","にち","day",hiExamples);
+    System.out.println(hi.kanjiChar);
   }
 
 }
