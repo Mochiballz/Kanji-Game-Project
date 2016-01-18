@@ -44,17 +44,4 @@ public class Character {
     examples = ex;
   }
 
-  public static void main (String [] args) {
-    ArrayList<String> hiExamples = new ArrayList<String>();
-    hiExamples.add("毎日");
-    hiExamples.add("昨日");
-
-    Character hi = new Character(312,"日","","にち","day",hiExamples);
-    System.out.println(hi.kanjiChar);
-
-    for(int i = 0; i < hi.examples.size(); i++){
-      System.out.println(hi.examples.get(i));
-    }
-  }
-
 }
