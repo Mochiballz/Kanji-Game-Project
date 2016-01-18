@@ -26,6 +26,15 @@ public class Character {
     examples = new ArrayList<String>();
   }
 
+  public Character(int index, String kanji, String on, String kun, String en) {
+    indexNum = index;
+    kanjiChar = kanji;
+    onyomi = on;
+    kunyomi = kun;
+    englishMean = en;
+    examples = new ArrayList<String>();
+  }
+
   public Character(int index, String kanji, String on, String kun, String en, ArrayList<String> ex) {
     indexNum = index;
     kanjiChar = kanji;
