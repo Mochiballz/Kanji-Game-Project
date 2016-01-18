@@ -67,7 +67,7 @@
 牛:きゅう:うし:cow
 去:きょ:さ（る）:to leave
 魚:ぎょ:さかな:fish
-京:きょう::capitol
+京:きょう::capital
 強:きょう:つよ（い）:strong
 教:きょう:おしえ（る）:to teach
 橋:きょう:はし:bridge
