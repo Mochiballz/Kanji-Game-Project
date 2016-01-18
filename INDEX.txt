@@ -1,6 +1,6 @@
 悪:あく:わる（い）:bad
-暗:あん:やす（い）:cheap, peaceful
-安:あん:くら（い）:dark
+暗:あん:やす（い）:dark
+安:あん:くら（い）:cheap, peaceful
 以:い::to the ~ of
 意:い::meaning, mind
 医:い::medical
