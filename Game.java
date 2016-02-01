@@ -22,8 +22,8 @@ public class Game {
   }
 
   // Seperates element by colon to ArrayList<String>
-  public static String[] splitStringElem(String s) {
-    String[] array = s.split(":");
+  public static String[] splitStringElem(String s, String regex) {
+    String[] array = s.split(regex);
     return array;
   }
 
@@ -31,16 +31,22 @@ public class Game {
   public static ArrayList<Character> toCharacterList(ArrayList<String> array) {
     ArrayList<Character> charList = new ArrayList<Character>();
     for(int i = 0; i < array.size(); i++) {
-      String[] s = splitStringElem(array.get(i));
-      Character c = new Character(s[0],s[1],s[2],s[3],s[4]);
+      String[] s = splitStringElem(array.get(i),":");
+      Character c = new Character(i,s[0],s[1],s[2],s[3]);
       charList.add(c);
     }
+    return charList;
   }
 
   public static void main(String[] args) {
     // Prints ArrayList<String> of INDEX.txt
-    ArrayList<String> s = readFileToArrayList("INDEX.txt");
-    System.out.println(s.get(0));
+    ArrayList<String> list = readFileToArrayList("INDEX.txt");
+    ArrayList<Character> charList = toCharacterList(list);
+    String[] s = splitStringElem(list.get(74),":");
+    for(int i = 0; i < s.length; i++) {
+      System.out.println(s[i]);
+    }
+    System.out.println(charList.get(1));
   }
 
 }
