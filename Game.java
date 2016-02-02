@@ -32,8 +32,7 @@ public class Game {
     ArrayList<Character> charList = new ArrayList<Character>();
     for(int i = 0; i < array.size(); i++) {
       String[] s = splitStringElem(array.get(i),":");
-      Character c = new Character(i,s[0],s[1],s[2],s[3]);
-      charList.add(c);
+      charList.add(new Character(i,s[0],s[1],s[2],s[2]));
     }
     return charList;
   }
@@ -41,12 +40,11 @@ public class Game {
   public static void main(String[] args) {
     // Prints ArrayList<String> of INDEX.txt
     ArrayList<String> list = readFileToArrayList("INDEX.txt");
-    ArrayList<Character> charList = toCharacterList(list);
+    toCharacterList(list);
     String[] s = splitStringElem(list.get(74),":");
     for(int i = 0; i < s.length; i++) {
       System.out.println(s[i]);
     }
-    System.out.println(charList.get(1));
   }
 
 }
