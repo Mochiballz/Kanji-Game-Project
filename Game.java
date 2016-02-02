@@ -31,8 +31,8 @@ public class Game {
   public static ArrayList<Character> toCharacterList(ArrayList<String> array) {
     ArrayList<Character> charList = new ArrayList<Character>();
     for(int i = 0; i < array.size(); i++) {
-      String[] s = splitStringElem(array.get(i),":");
-      charList.add(new Character(i,s[0],s[1],s[2],s[2]));
+      String[] s = splitStringElem(array.get(i),"\\:+");
+      charList.add(new Character(i,s[0],s[1],s[2],s[3]));
     }
     return charList;
   }
