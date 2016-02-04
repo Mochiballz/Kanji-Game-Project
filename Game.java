@@ -38,7 +38,7 @@ public class Game {
   }
 
   public static void main(String[] args) {
-    // Prints ArrayList<String> of INDEX.txt
+    // Prints ArrayList<Character> from INDEX.txt
     ArrayList<String> list = readFileToArrayList("INDEX.txt");
     ArrayList<Character> charList = toCharacterList(list);
     for(int i = 0; i < charList.size(); i++) {
