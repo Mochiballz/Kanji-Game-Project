@@ -37,12 +37,19 @@ public class Game {
     return charList;
   }
 
+  // Picks random Character from ArrayList<Character>, returns it
+  public static Character pickRandCharacter(ArrayList<Character> c){
+    Random rand = new Random();
+    int i = rand.nextInt(c.size());
+    return c.get(i);
+  }
+
   public static void main(String[] args) {
     // Prints ArrayList<Character> from INDEX.txt
     ArrayList<String> list = readFileToArrayList("INDEX.txt");
     ArrayList<Character> charList = toCharacterList(list);
-    for(int i = 0; i < charList.size(); i++) {
-      Character c = charList.get(i);
+    for(int i = 0; i < 10; i++) {
+      Character c = pickRandCharacter(charList);
       System.out.println(c.indexNum + " "
         + c.kanjiChar + " "
         + c.onyomi + " "
