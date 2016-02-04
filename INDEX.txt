@@ -6,7 +6,7 @@
 医:い: :medical
 育:いく:そだ（つ／いくてる）:to raise (a child or pet)
 一:いち:ひと:one
-員:いん:member
+員:いん: :member
 引:いん:ひ（く）:to pull
 飲:いん:の（む）:to drink
 院:いん: :institute
@@ -19,8 +19,8 @@
 駅:えき: :station
 円:えん:まる:circle, yen
 園:えん:その:garden
-遠:えん:far
-横:おう:side
+遠:えん:とう（い）:far
+横:おう:よこ:side
 屋:おく:や:store, roof
 温:おん:あたたかい:warm
 音:おん:おと:sound
@@ -109,7 +109,7 @@
 行:こう／きょう:い／ゆ（く）:to go
 降:こう:ふ（る）／お（りる）:to fall/get off
 高:こう:たかい:tall/expensive
-号:ごう:number (#)
+号:ごう: :number (#)
 合:ごう:あ（う）:to match
 国:こく:くに:country
 黒:こく:くろ:black
@@ -146,16 +146,16 @@
 持:じ:も（つ）:to hold
 時:じ:とき／と:time
 次:じ:つぎ:next
-治:じ:なお（る）: :to treat
+治:じ:なお（る）:to treat
 自:じ: :self
 辞:じ: :word
-式:しき:ceremoy
+式:しき: :ceremoy
 七:しち:なな:seven
 失:しつ:うしな（う）:to lose
 室:しつ: :room
 実:じつ:み:truth
-写:しゃ:うつ（す）: :to copy
-社:しゃ／じゃ:company
+写:しゃ:うつ（す）:to copy
+社:しゃ／じゃ: :company
 者:しゃ／じゃ:もの:person
 車:しゃ:くるま:car
 若:じゃく:わか（い）:young
@@ -165,18 +165,18 @@
 酒:しゅ:さけ:alcohol
 受:じゅ:う（ける）:to receive
 授:じゅ:さず（かる）:to receive
-州:しゅう:state
+州:しゅう: :state
 秋:しゅう:あき:autumn
 終:しゅう:お（わる）:to end
 習:しゅう:なら（う）:to learn
-週:しゅう:week
+週:しゅう: :week
 集:しゅう:あつ（まる／める）:to gather/collect
 住:じゅう:す（む）:to live
 十:じゅう:とお:ten
 重:じゅう:おも（い）:heavy
 宿:しゅく:やど:inn
 出:しゅつ:で（る）／だ（す）:to go out
-術:じゅつ:art
+術:じゅつ: :art
 春:しゅん:はる:spring
 初:しょ:はじ（め）:beginning
 所:しょ:ところ:place
@@ -218,7 +218,7 @@
 石:せき:いし:rock, stone
 赤:せき:あか:red
 切:せつ:き（る）:to cut
-接:せつ:to connect
+接:せつ: :to connect
 節:せつ:ふし:node;joint
 説:せつ:と（く）:to explain
 雪:せつ:ゆき:snow
@@ -285,10 +285,10 @@
 天:てん:あま:heaven
 店:てん:みせ:store
 転:てん:ころ（がる）:to roll
-点:てん:point
+点:てん: :point
 伝:でん:つた（える）:to convey
 田:でん:た:rice field
-電:でん:electricity
+電:でん: :electricity
 登:と／とう:のぼ（る）:to climb
 都:と:みやこ:capital
 度:ど: :-time(s)
@@ -330,7 +330,7 @@
 美:び:うつく（しい）:beautiful
 鼻:び:はな:nose
 必:ひつ:かなら（ず）:necessary
-百:ひゃく:hundred
+百:ひゃく: :hundred
 氷:ひょう:こおり:ice
 表:ひょう:おもて:front/chart
 病:びょう:やま（い）:illness
@@ -356,7 +356,7 @@
 歩:ほ／ぽ:ある（く）:to walk
 母:ぼ:はは／かあ:mother
 方:ほう:かた／がた:person/way of doing/side
-法:ほう:law
+法:ほう: :law
 忘:ぼう:わす（れる）:to forget
 忙:ぼう:いそが（しい）:busy
 北:ぼく:きた:north
@@ -399,7 +399,7 @@
 留:りゅう／る:とど（める）:to stop
 旅:りょ:たび:travel
 両:りょう: :both
-料:りょう:material/fee
+料:りょう: :material/fee
 力:りょく:ちから:power
 林:りん:はやし:forest
 冷:れい:つめ（たい）:cold

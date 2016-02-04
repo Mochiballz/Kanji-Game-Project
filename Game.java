@@ -32,7 +32,7 @@ public class Game {
     ArrayList<Character> charList = new ArrayList<Character>();
     for(int i = 0; i < array.size(); i++) {
       String[] s = splitStringElem(array.get(i),"\\:+");
-      charList.add(new Character(i,s[0],s[1],s[2],s[3]));
+      charList.add(new Character(i+1,s[0],s[1],s[2],s[3]));
     }
     return charList;
   }
@@ -40,10 +40,14 @@ public class Game {
   public static void main(String[] args) {
     // Prints ArrayList<String> of INDEX.txt
     ArrayList<String> list = readFileToArrayList("INDEX.txt");
-    toCharacterList(list);
-    String[] s = splitStringElem(list.get(74),":");
-    for(int i = 0; i < s.length; i++) {
-      System.out.println(s[i]);
+    ArrayList<Character> charList = toCharacterList(list);
+    for(int i = 0; i < charList.size(); i++) {
+      Character c = charList.get(i);
+      System.out.println(c.indexNum + " "
+        + c.kanjiChar + " "
+        + c.onyomi + " "
+        + c.kunyomi + " "
+        + c.englishMean);
     }
   }
 
