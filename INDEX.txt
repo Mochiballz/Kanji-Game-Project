@@ -1,22 +1,22 @@
 悪:あく:わる（い）:bad
 暗:あん:やす（い）:dark
 安:あん:くら（い）:cheap, peaceful
-以:い::to the ~ of
-意:い::meaning, mind
-医:い::medical
+以:い: :to the ~ of
+意:い: :meaning, mind
+医:い: :medical
 育:いく:そだ（つ／いくてる）:to raise (a child or pet)
 一:いち:ひと:one
-員:いん::member
+員:いん: :member
 引:いん:ひ（く）:to pull
 飲:いん:の（む）:to drink
-院:いん::institute
+院:いん: :institute
 右:う／ゆう:みぎ:right (side)
 雨:う:あめ:rain
 運:うん:はこ（ぶ）:to carry, luck
 映:えい:うつ（す）:to project
 泳:えい:およ（ぐ）:to swim
-英:えい::British, brave
-駅:えき::station
+英:えい: :British, brave
+駅:えき: :station
 円:えん:まる:circle, yen
 園:えん:その:garden
 遠:えん:とう（い）:far
@@ -29,50 +29,50 @@
 何:か:なに／なん:what
 夏:か:なつ:summer
 家:か:いえ:house, person
-科:か::subject
+科:か: :subject
 歌:か:うた:song
 火:か:ひ:fire
 花:か:はな:flower
 荷:か:に:luggage
-画:が／かく::picture/stroke
+画:が／かく: :picture/stroke
 会:かい:あ（う）:to meet
 回:かい:まわ（る）:-time(s)
 海:かい:うみ:sea/ocean/beach
-界:かい::boundary
+界:かい: :boundary
 皆:かい:み（ん）か:everyone
 絵:かい:え:painting
 開:かい:あ（ける）／かい／あ（く）:to open
-階:かい／がい::floor
+階:かい／がい: :floor
 外:がい／げ:そと:outside
 学:がく:まな（ぶ）:to learn
 楽:がく／らく:たの（しい）:enjoyable
-活:かつ::active, live
+活:かつ: :active, live
 寒:かん:さむ（い）:cold
-漢:かん::Chinese
+漢:かん: :Chinese
 間:かん:あいだ／ま:interval, space
 関:かん:せき:barrier
-館:かん::building
+館:かん: :building
 顔:がん:かお:face
 願:がん:ねが（う）:wish
-期:き::term
-機:き::machine
+期:き: :term
+機:き: :machine
 帰:き:かえ（る）:to return
-気:き::spirit
-記:き::to mark
+気:き: :spirit
+記:き: :to mark
 起:き:おき（る）:to wake up
 休:きゅう:やす（む）:to rest
 急:きゅう:いそ（ぐ）:to hurry
 泣:きゅう:な（く）:to cry
-究:きゅう::to investigate
+究:きゅう: :to investigate
 牛:きゅう:うし:cow
 去:きょ:さ（る）:to leave
 魚:ぎょ:さかな:fish
-京:きょう::capital
+京:きょう: :capital
 強:きょう:つよ（い）:strong
 教:きょう:おしえ（る）:to teach
 橋:きょう:はし:bridge
-業:きょう::work, business
-局:きょく::office
+業:きょう: :work, business
+局:きょく: :office
 近:きん／こん:ちか（い）:near
 金:きん:かね:gold/money
 九:きゅう／く:ここの:nine
@@ -80,50 +80,50 @@
 係:けい:かか（り）:in charge
 兄:けい／きょう:あに／にい:older brother
 形:けい:かたち:shape
-経:けい::to pass through
+経:けい: :to pass through
 計:けい:はか（る）:to measure
 決:けつ:き（める）:to decide
 結:けつ:むす（ぶ）:to tie
 月:げつ／がつ:つき:moon, month
 犬:けん:いぬ:dog
 見:けん:み（る）:to see/look/watch
-験:けん::testing
+験:けん: :testing
 元:げん／がん:もと:original
-現:げん::to appear
+現:げん: :to appear
 言:げん:い（う）:to say
-個:こ::individual
+個:こ: :individual
 古:こ:ふる（い）:old
 五:ご:いつ（つ）:five
-午:ご::noon
+午:ご: :noon
 後:ご:うし（ろ）／あと:after
 語:ご:かた（る）:to talk
 公:こう:おおや（け）:public
 口:こう:くち／ぐち:mouth
 向:こう:む（く／かう）:to face
 好:こう:す（き）／よし:like
-工:こう::industrial
+工:こう: :industrial
 広:こう:ひろ（い）:wide
-校:こう::school
+校:こう: :school
 港:こう:みなと:harbor
 考:こう:かんが（える）:to think
 行:こう／きょう:い／ゆ（く）:to go
 降:こう:ふ（る）／お（りる）:to fall/get off
 高:こう:たかい:tall/expensive
-号:ごう::number (#)
+号:ごう: :number (#)
 合:ごう:あ（う）:to match
 国:こく:くに:country
 黒:こく:くろ:black
 今:こん:いま:now
 困:こん:こま（る）:to be troubled
-婚:こん::marriage
+婚:こん: :marriage
 左:さ:ひだり:left
 最:さい:もっと（も）:most
 歳:さい／せい:とし:age;-years old
 祭:さい:まつり:festival
 際:さい:きわ:edge
 作:さく:つく（る）:to make
-昨:さく::last preceding
-雑:ざつ::miscellaneous
+昨:さく: :last preceding
+雑:ざつ: :miscellaneous
 三:さん:み（っつ）:three
 山:さん:やま:mountain
 残:ざん:のこ（す／り）:to leave
@@ -141,21 +141,21 @@
 紙:し:かみ:paper
 試:し:ため（す）:to try
 事:し／じ:こと／ごと:matter
-字:じ::character
+字:じ: :character
 寺:じ:てら／でら:temple
 持:じ:も（つ）:to hold
 時:じ:とき／と:time
 次:じ:つぎ:next
 治:じ:なお（る）:to treat
-自:じ::self
-辞:じ::word
-式:しき::ceremoy
+自:じ: :self
+辞:じ: :word
+式:しき: :ceremoy
 七:しち:なな:seven
 失:しつ:うしな（う）:to lose
-室:しつ::room
+室:しつ: :room
 実:じつ:み:truth
 写:しゃ:うつ（す）:to copy
-社:しゃ／じゃ::company
+社:しゃ／じゃ: :company
 者:しゃ／じゃ:もの:person
 車:しゃ:くるま:car
 若:じゃく:わか（い）:young
@@ -165,18 +165,18 @@
 酒:しゅ:さけ:alcohol
 受:じゅ:う（ける）:to receive
 授:じゅ:さず（かる）:to receive
-州:しゅう::state
+州:しゅう: :state
 秋:しゅう:あき:autumn
 終:しゅう:お（わる）:to end
 習:しゅう:なら（う）:to learn
-週:しゅう::week
+週:しゅう: :week
 集:しゅう:あつ（まる／める）:to gather/collect
 住:じゅう:す（む）:to live
 十:じゅう:とお:ten
 重:じゅう:おも（い）:heavy
 宿:しゅく:やど:inn
 出:しゅつ:で（る）／だ（す）:to go out
-術:じゅつ::art
+術:じゅつ: :art
 春:しゅん:はる:spring
 初:しょ:はじ（め）:beginning
 所:しょ:ところ:place
@@ -206,7 +206,7 @@
 水:すい:みず:water
 数:すう:かず／かぞ（える）:number/to count
 世:せ:よ:world
-制:せい::system
+制:せい: :system
 成:せい:な（る）:to become
 晴:せい:は（れ）:clear sky
 正:しょう:ただ（しい）:correct
@@ -218,19 +218,19 @@
 石:せき:いし:rock, stone
 赤:せき:あか:red
 切:せつ:き（る）:to cut
-接:せつ::to connect
+接:せつ: :to connect
 節:せつ:ふし:node;joint
 説:せつ:と（く）:to explain
 雪:せつ:ゆき:snow
 先:せん:さき:first
 千:せん:ち:thousand
-専:せん::exclusive
+専:せん: :exclusive
 川:せん:かわ:river
 洗:せん:あら（う）:to wash
-線:せん::line
+線:せん: :line
 選:せん:えら（ぶ）:to choose
 前:ぜん:まえ:before/front
-然:ぜん::be as is
+然:ぜん: :be as is
 全:ぜん:まった（く）:whole
 組:そ:くみ:group
 早:そう:はや（い）:early
@@ -241,31 +241,31 @@
 側:そく:かわ:side
 足:そく:あし／た（りる）:foot/enough
 速:そく:はや（い）:fast
-族:ぞく::group
+族:ぞく: :group
 続:ぞく:つづ（く）:to continue
-卒:ぞつ::to graduate
+卒:ぞつ: :to graduate
 村:そん:むら:village
 多:た:おお（い）:many
 太:た／たい:ふと（る）:fat
 打:だ:う（つ）:to hit
 体:たい:からだ:body
-対:たい::vs.
+対:たい: :vs.
 待:たい:ま（つ）:to wait
 貸:たい:か（す）:to lend
-台:たい／だい::step
+台:たい／だい: :step
 大:だい:おお（きい）:big
-第:だい::ordinal
-題:だい::title
-達:たち::plural/skilled
-単:たん::single
+第:だい: :ordinal
+題:だい: :title
+達:たち: :plural/skilled
+単:たん: :single
 短:たん:みじか（い）:short
 男:だん:おとこ:male
 知:ち:し（る）:to know
-地:ち／じ::land;ground
+地:ち／じ: :land;ground
 池:ち:いけ:pond
 置:ち:お（く）:to put
 遅:ち:お（そい）:to be late
-茶:ちゃ::tea
+茶:ちゃ: :tea
 着:ちゃく:き（る）／つ（く）:to wear/arrive
 中:ちゅう:なか:inside
 昼:ちゅう:ひろ:noon
@@ -285,13 +285,13 @@
 天:てん:あま:heaven
 店:てん:みせ:store
 転:てん:ころ（がる）:to roll
-点:てん::point
+点:てん: :point
 伝:でん:つた（える）:to convey
 田:でん:た:rice field
-電:でん::electricity
+電:でん: :electricity
 登:と／とう:のぼ（る）:to climb
 都:と:みやこ:capital
-度:ど::-time(s)
+度:ど: :-time(s)
 土:ど／と:つち:soil
 冬:とう:ふゆ:winter
 島:とう:しま:island
@@ -302,13 +302,13 @@
 動:どう:うご（く）:to move
 同:どう:おな（じ）:same
 道:どう:みち:road/way
-特:とく::special
+特:とく: :special
 読:どく:よ（む）:to read
 内:ない:うち:inside
 南:なん:みなみ:south
 難:なん:むずか（しい）／－がた（い）:difficult
 二:に:ふた:two
-肉:にく::meat
+肉:にく: :meat
 日:にち／じつ:ひ／か:day
 入:にゅう:はい（る）／い（れる）:to enter
 熱:ねつ:あつ（い）:hot/fever
@@ -319,30 +319,30 @@
 売:ばい:う（る）:to sell
 白:ばい／はく:しろ:white
 八:はち:やっ／よう:eight
-発:はつ::to depart
-半:はん::half
-反:はん::against
+発:はつ: :to depart
+半:はん: :half
+反:はん: :against
 飯:はん:めし:cooked rice
-晩:ばん::evening
-番:ばん::number
-非:ひ::non-
+晩:ばん: :evening
+番:ばん: :number
+非:ひ: :non-
 飛:ひ:と（ぶ）:to fly, jump
 美:び:うつく（しい）:beautiful
 鼻:び:はな:nose
 必:ひつ:かなら（ず）:necessary
-百:ひゃく::hundred
+百:ひゃく: :hundred
 氷:ひょう:こおり:ice
 表:ひょう:おもて:front/chart
 病:びょう:やま（い）:illness
 品:ひん:しな:item
-不:ふ::non-
+不:ふ: :non-
 付:ふ:つ（く）:attach
 夫:ふ／ふう:おっと:man/(own) husband
-婦:ふ::married woman
+婦:ふ: :married woman
 父:ふ:ちち／とう:father
 部:ぶ:へ:part
 風:ふう:かぜ:wind
-服:ふく::cloth
+服:ふく: :cloth
 払:ふつ:はら（う）:to pay
 物:ぶつ／もう:もの:thing (tangible)
 分:ふん／ぶん:わ（かるける）:to understand/divide
@@ -351,60 +351,60 @@
 平:へい:たい（ら）／ひら:flat/peace
 別:べつ:わか（れる）:to separate
 変:へん:か（わる／える）:to change
-便:べん／びん::convenient
+便:べん／びん: :convenient
 勉:べん:つと（める）:to study
 歩:ほ／ぽ:ある（く）:to walk
 母:ぼ:はは／かあ:mother
 方:ほう:かた／がた:person/way of doing/side
-法:ほう::law
+法:ほう: :law
 忘:ぼう:わす（れる）:to forget
 忙:ぼう:いそが（しい）:busy
 北:ぼく:きた:north
 本:ほん／ぼん:もと:origin/book
 妹:まい:いもうと:younger sister
-枚:まい::-sheet(s)
-毎:まい::every
+枚:まい: :-sheet(s)
+毎:まい: :every
 末:まつ:すえ:end
-万:まん::ten thousand
+万:まん: :ten thousand
 味:み:あじ:taste
-未:み::not yet
-無:む::nothing
+未:み: :not yet
+無:む: :nothing
 名:めい:な:name
 明:めい:あか（るい）:bright
 面:めん:おも／おもて:face
 木:もく:き:tree
 目:もく:め:eye
 問:もん:と（う）:to ask
-門:もん::gate
+門:もん: :gate
 夜:や:よる:night
 野:や:の:field
 薬:やく:くすり:medicine
 友:ゆう:とも:friend
 有:ゆう:あ（る）:to have
-由:ゆう::reason
+由:ゆう: :reason
 遊:ゆう:あそ（ぶ）:to play
-夕:ゆう::evening
-予:よ::pre
-曜:よう::day of week
+夕:ゆう: :evening
+予:よ: :pre
+曜:よう: :day of week
 様:よう:さま:Mr./Mrs./manner
-洋:よう::ocean
-用:よう::task/use
+洋:よう: :ocean
+用:よう: :task/use
 要:よう:かなめ:main
 来:らい:き／く／こ:to come
-絡:らく::linkage
+絡:らく: :linkage
 落:らく:お（ちる／とす）:to fall/drop
-利:り::advantage
-理:り::reason
+利:り: :advantage
+理:り: :reason
 立:りつ:た（つ）:to stand
 留:りゅう／る:とど（める）:to stop
 旅:りょ:たび:travel
-両:りょう::both
-料:りょう::material/fee
+両:りょう: :both
+料:りょう: :material/fee
 力:りょく:ちから:power
 林:りん:はやし:forest
 冷:れい:つめ（たい）:cold
 礼:れい:さつ:gratitude/paper bills
 練:れん:ね（る）:to train
 六:ろく:む:six
-和:わ::harmony/Japanese
+和:わ: :harmony/Japanese
 話:わ:はな（す）:to talk
