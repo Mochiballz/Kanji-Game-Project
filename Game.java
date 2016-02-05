@@ -44,18 +44,34 @@ public class Game {
     return c.get(i);
   }
 
+  // Returns true if c1 and c2 are the same Character
+  public static boolean isSameCharacter(Character c1, Character c2) {
+    if(c1 == c2) { return true; } return false;
+  }
+
+  // Creates a selection of random Characters to choose from in Character[]
+  public static Character[] characterSelection(ArrayList<Character> charList, int init) {
+    Character[] selection = new Character[init];
+    for(int i = 0; i < init; i++) {
+      Character c = pickRandCharacter(charList);
+      selection[i] = c;
+    }
+    return selection;
+  }
+
+  
+
   public static void main(String[] args) {
     // Prints ArrayList<Character> from INDEX.txt
     ArrayList<String> list = readFileToArrayList("INDEX.txt");
     ArrayList<Character> charList = toCharacterList(list);
-    for(int i = 0; i < 10; i++) {
-      Character c = pickRandCharacter(charList);
-      System.out.println(c.indexNum + " "
-        + c.kanjiChar + " "
-        + c.onyomi + " "
-        + c.kunyomi + " "
-        + c.englishMean);
+    Character[] testCharList = characterSelection(charList,9);
+    for(int i = 0; i < testCharList.length; i++) {
+      System.out.println(testCharList[i]);
     }
+    boolean b1 = isSameCharacter(charList.get(300),charList.get(300));
+    boolean b2 = isSameCharacter(charList.get(300),charList.get(301));
+    System.out.println(b1 + "\n" + b2);
   }
 
 }
