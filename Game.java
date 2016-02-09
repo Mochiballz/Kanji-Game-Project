@@ -5,6 +5,11 @@ import java.io.*;
 
 public class Game {
 
+  // Variables
+  private ArrayList<Character> currentKanji;
+  private ArrayList<Character> usedKanji;
+  private int score;
+
   // Takes file, turns lines to elements of ArrayList<String>
   public static ArrayList<String> readFileToArrayList(String file) {
     ArrayList<String> list = new ArrayList<String>();
@@ -59,7 +64,12 @@ public class Game {
     return selection;
   }
 
-  
+  public static int givePoints(Character correct, Character clicked, int points) {
+    if(isSameCharacter(correct, clicked)) {
+      return points;
+    }
+    return 0;
+  }
 
   public static void main(String[] args) {
     // Prints ArrayList<Character> from INDEX.txt
@@ -69,9 +79,6 @@ public class Game {
     for(int i = 0; i < testCharList.length; i++) {
       System.out.println(testCharList[i]);
     }
-    boolean b1 = isSameCharacter(charList.get(300),charList.get(300));
-    boolean b2 = isSameCharacter(charList.get(300),charList.get(301));
-    System.out.println(b1 + "\n" + b2);
   }
 
 }

@@ -44,4 +44,28 @@ public class Character {
     examples = ex;
   }
 
+  public int getIndex() {
+    return this.indexNum;
+  }
+
+  public String getKanji() {
+    return this.kanjiChar;
+  }
+
+  public String getOnyomi() {
+    return this.onyomi;
+  }
+
+  public String getKunyomi() {
+    return this.kunyomi;
+  }
+
+  public String getEnglish() {
+    return this.englishMean;
+  }
+
+  public ArrayList<String> getExamples() {
+    return this.examples;
+  }
+
 }
