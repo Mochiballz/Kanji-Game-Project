@@ -13,13 +13,17 @@ public class Game {
   // Takes file, turns lines to elements of ArrayList<String>
   public static ArrayList<String> readFileToArrayList(String file) {
     ArrayList<String> list = new ArrayList<String>();
+
     try {
       Scanner s = new Scanner(new File(file));
+
       while(s.hasNextLine()) {
         list.add(s.nextLine());
       }
+      
       s.close();
     }
+
     catch(Exception e) {
       System.out.println(e.getMessage());
     }
@@ -35,10 +39,12 @@ public class Game {
   // Turns each element of ArrayList<String> into Character, makes Character list
   public static ArrayList<Character> toCharacterList(ArrayList<String> array) {
     ArrayList<Character> charList = new ArrayList<Character>();
+
     for(int i = 0; i < array.size(); i++) {
       String[] s = splitStringElem(array.get(i),"\\:+");
       charList.add(new Character(i+1,s[0],s[1],s[2],s[3]));
     }
+
     return charList;
   }
 
@@ -57,10 +63,12 @@ public class Game {
   // Creates a selection of random Characters to choose from in Character[]
   public static Character[] characterSelection(ArrayList<Character> charList, int init) {
     Character[] selection = new Character[init];
+
     for(int i = 0; i < init; i++) {
       Character c = pickRandCharacter(charList);
       selection[i] = c;
     }
+
     return selection;
   }
 
