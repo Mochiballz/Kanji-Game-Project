@@ -11,21 +11,21 @@ public class User {
 
   private String username;
   private String password;
-  private int[] highScores;
+  private Integer[] highScores;
 
   public User() {
     username = "";
     password = "";
-    highScores = new int[10];
+    highScores = new Integer[10];
   }
 
   public User(String u, String p) {
     username = u;
     password = p;
-    highScores = new int[10];
+    highScores = new Integer[10];
   }
 
-  public User(String u, String p, int[] s) {
+  public User(String u, String p, Integer[] s) {
     username = u;
     password = p;
     highScores = s;
@@ -39,7 +39,7 @@ public class User {
     return this.password;
   }
 
-  public int[] getHighScores() {
+  public Integer[] getHighScores() {
     return this.highScores;
   }
 
