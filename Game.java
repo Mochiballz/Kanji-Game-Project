@@ -2,6 +2,7 @@
 import java.lang.*;
 import java.util.*;
 import java.io.*;
+import javax.swing.*;
 
 public class Game {
 
@@ -20,7 +21,7 @@ public class Game {
       while(s.hasNextLine()) {
         list.add(s.nextLine());
       }
-      
+
       s.close();
     }
 
@@ -83,9 +84,9 @@ public class Game {
     // Prints ArrayList<Character> from INDEX.txt
     ArrayList<String> list = readFileToArrayList("INDEX.txt");
     ArrayList<Character> charList = toCharacterList(list);
-    Character[] testCharList = characterSelection(charList,9);
-    for(int i = 0; i < testCharList.length; i++) {
-      System.out.println(testCharList[i]);
+    Character[] charArray = characterSelection(charList,9);
+    for(int i = 0; i < charArray.length; i++) {
+      System.out.println(charArray[i].getKanji());
     }
   }
 
