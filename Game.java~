@@ -3,7 +3,6 @@ import java.lang.*;
 import java.util.*;
 import java.io.*;
 import javax.swing.*;
-import java.awt.*;
 
 public class Game {
 
@@ -87,7 +86,7 @@ public class Game {
     ArrayList<Character> charList = toCharacterList(list);
     Character[] charArray = characterSelection(charList,9);
     for(int i = 0; i < charArray.length; i++) {
-      System.out.println(charArray[i].getIndex());
+      System.out.println(charArray[i].getKanji());
     }
   }
 
