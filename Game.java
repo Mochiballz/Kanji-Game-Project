@@ -2,15 +2,39 @@
 import java.lang.*;
 import java.util.*;
 import java.io.*;
-import javax.swing.*;
-import java.awt.*;
 
 public class Game {
 
   // Variables
   private ArrayList<Character> currentKanji;
   private ArrayList<Character> usedKanji;
-  private int score;
+  private Integer score;
+
+  public Game() {
+    currentKanji = new ArrayList<Character>();
+    usedKanji = new ArrayList<Character>();
+    score = 0;
+  }
+
+  public ArrayList<Character> getCurrentKanji() {
+    return this.currentKanji;
+  }
+
+  public ArrayList<Character> getUsedKanji() {
+    return this.usedKanji;
+  }
+
+  public Integer getScore() {
+    return this.score;
+  }
+
+  public void addUsedKanji(Character c) {
+    this.usedKanji.add(c);
+  }
+
+  public void addPoints(Integer points) {
+    this.score += points;
+  }
 
   // Takes file, turns lines to elements of ArrayList<String>
   public static ArrayList<String> readFileToArrayList(String file) {
@@ -74,13 +98,6 @@ public class Game {
     return selection;
   }
 
-  public static int givePoints(Character correct, Character clicked, int points) {
-    if(isSameCharacter(correct, clicked)) {
-      return points;
-    }
-    return 0;
-  }
-
   public static void main(String[] args) {
     // Prints ArrayList<Character> from INDEX.txt
     ArrayList<String> list = readFileToArrayList("INDEX.txt");
@@ -89,6 +106,12 @@ public class Game {
     for(int i = 0; i < charArray.length; i++) {
       System.out.println(charArray[i].getIndex());
     }
+
+    User aaron = new User("aaron","secret");
+    aaron.addScore(3000);
+    aaron.addScore(4500);
+    aaron.addScore(234);
+
   }
 
 }

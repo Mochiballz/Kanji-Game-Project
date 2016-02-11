@@ -43,4 +43,13 @@ public class User {
     return this.highScores;
   }
 
+  public void addScore(Integer score) {
+    for(int i = 0; i < this.highScores.length; i++) {
+      if(this.highScores[i] == null) {
+        this.highScores[i] = score;
+        break;
+      }
+    }
+  }
+
 }
