@@ -37,7 +37,8 @@ public class Game {
 
   public void setPrompt() {
     Random rand = new Random();
-    int i = rand.ne
+    int i = rand.nextInt(this.currentKanji.length);
+    prompt = this.currentKanji[i];
   }
 
   public void addUsedKanji(Character c) {
@@ -114,14 +115,12 @@ public class Game {
     return selection;
   }
 
-  public static void playGame() {
-
-  }
-
   public static void main(String[] args) {
     // Prints ArrayList<Character> from INDEX.txt
-    ArrayList<String> list = readFileToArrayList("INDEX.txt");
-    ArrayList<Character> charList = toCharacterList(list);
+    ArrayList<String> indexList = readFileToArrayList("INDEX.txt");
+    ArrayList<String> usersList = readFileToArrayList("USERS.txt");
+
+    ArrayList<Character> charList = toCharacterList(indexList);
     Character[] charArray = characterSelection(charList,9);
     for(int i = 0; i < charArray.length; i++) {
       System.out.println(charArray[i].getIndex());
