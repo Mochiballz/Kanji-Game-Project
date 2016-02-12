@@ -6,17 +6,24 @@ import java.io.*;
 public class Game {
 
   // Variables
-  private ArrayList<Character> currentKanji;
+  private Character prompt;
+  private Character[] currentKanji;
   private ArrayList<Character> usedKanji;
   private Integer score;
 
-  public Game() {
-    currentKanji = new ArrayList<Character>();
+  // Constructor
+  public Game(Character[] charArray) {
+    prompt = null;
+    currentKanji = charArray;
     usedKanji = new ArrayList<Character>();
     score = 0;
   }
 
-  public ArrayList<Character> getCurrentKanji() {
+  public Character getPrompt() {
+    return this.prompt;
+  }
+
+  public Character[] getCurrentKanji() {
     return this.currentKanji;
   }
 
@@ -28,8 +35,17 @@ public class Game {
     return this.score;
   }
 
+  public void setPrompt() {
+    Random rand = new Random();
+    int i = rand.ne
+  }
+
   public void addUsedKanji(Character c) {
     this.usedKanji.add(c);
+  }
+
+  public void replaceCurrentKanji(int i, Character newChar) {
+    this.currentKanji[i] = newChar;
   }
 
   public void addPoints(Integer points) {
@@ -96,6 +112,10 @@ public class Game {
     }
 
     return selection;
+  }
+
+  public static void playGame() {
+
   }
 
   public static void main(String[] args) {
