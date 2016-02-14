@@ -131,6 +131,9 @@ public class Game {
     aaron.addScore(4500);
     aaron.addScore(234);
 
+    String userInfo = aaron.userString(":",",");
+    aaron.writeUser("USERS.txt",userInfo);
+
   }
 
 }

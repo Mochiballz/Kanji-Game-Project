@@ -52,4 +52,36 @@ public class User {
     }
   }
 
+  // Takes in User and returns info of User to String
+  public String userString(String s1, String s2) {
+    String usernameString = this.username + s1;
+    String passwordString = this.password + s1;
+    String highScoresString = new String();
+
+    for(int i = 0; i < this.highScores.length; i++) {
+      if(this.highScores[i] == null) {
+        break;
+      }
+      if(this.highScores[i+1] == null) {
+        highScoresString += this.highScores[i].toString();
+        break;
+      }
+      highScoresString += this.highScores[i].toString() + s2;
+    }
+
+    return usernameString + passwordString + highScoresString;
+  }
+
+  // Writes String s to path
+  public void writeUser(String path, String s) {
+    try {
+      PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(path, true)));
+      out.println(s);
+      out.close();
+    }
+    catch(IOException e) {
+    //exception handling left as an exercise for the reader
+    }
+  }
+
 }
