@@ -91,6 +91,24 @@ public class Game {
     return charList;
   }
 
+  // Turns each element of ArrayList<String> into User, makes User list
+  public static ArrayList<User> toUserList(ArrayList<String> array) {
+    ArrayList<User> userList = new ArrayList<User>();
+
+    for(int i = 0; i < array.size(); i++) {
+      String[] s = splitStringElem(array.get(i),"\\:+");
+      String[] highScoresString = splitStringElem(s[2],"\\,+");
+      Integer[] highScoresInteger = new Integer[10];
+      for(int n = 0; n < highScoresString.length; n++) {
+        highScoresInteger[n] = Integer.valueOf(highScoresString[n]);
+      }
+
+      userList.add(new User(s[0],s[1],highScoresInteger));
+    }
+
+    return userList;
+  }
+
   // Picks random Character from ArrayList<Character>, returns it
   public static Character pickRandCharacter(ArrayList<Character> c){
     Random rand = new Random();
@@ -121,18 +139,15 @@ public class Game {
     ArrayList<String> usersList = readFileToArrayList("USERS.txt");
 
     ArrayList<Character> charList = toCharacterList(indexList);
+    ArrayList<User> userList = toUserList(usersList);
     Character[] charArray = characterSelection(charList,9);
-    for(int i = 0; i < charArray.length; i++) {
-      System.out.println(charArray[i].getIndex());
+
+    for(int i = 0; i < userList.size(); i++) {
+      User current = userList.get(i);
+      System.out.println(current.getUsername() + " " + current.getPassword());
     }
 
-    User aaron = new User("aaron","secret");
-    aaron.addScore(3000);
-    aaron.addScore(4500);
-    aaron.addScore(234);
 
-    String userInfo = aaron.userString(":",",");
-    aaron.writeUser("USERS.txt",userInfo);
 
   }
 
