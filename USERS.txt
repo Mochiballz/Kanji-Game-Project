@@ -1,3 +1,2 @@
-aaron:password134:1234,6464,134587,563
-aiden:ajvadfl:1245,86734,245,2,5
-josh:chicken:342,567,213453,4
+user01:password01:123,456,789
+user02:password02:987,654,321
