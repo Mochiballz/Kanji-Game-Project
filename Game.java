@@ -133,9 +133,9 @@ public class Game {
     return selection;
   }
 
-  public static void run(String indexFile, String usersFile, ) {
+  public static void run(String indexFile, String usersFile) {
     // Constants
-    private static final int numOfKanji = 9;
+    int numOfKanji = 9;
 
     // Preliminary stuff
     ArrayList<String> indexList = readFileToArrayList(indexFile);
@@ -148,8 +148,20 @@ public class Game {
 
     Game runningGame = new Game(charArray);
     // Ask for user information
-    
+    Scanner userPrompt = new Scanner(System.in);
+    System.out.print("Please type username: ");
 
+    outer:
+    while(userPrompt.hasNextLine()) {
+      String typed = userPrompt.nextLine();
+      for(int i = 0; i < userList.size(); i++) {
+        if(userList.get(i).getUsername().equals(typed)) {
+          System.out.print("Type password: ");
+          break outer;
+        }
+      }
+      System.out.print("Try again: ");
+    }
     // Start game, set timer, record points
 
     // When game ends:
@@ -161,7 +173,7 @@ public class Game {
 
   public static void main(String[] args) {
     // Prints ArrayList<Character> from INDEX.txt
-
+    run("INDEX.txt","USERS.txt");
 
 
   }
