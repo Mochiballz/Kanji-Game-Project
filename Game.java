@@ -136,6 +136,7 @@ public class Game {
   public static void run(String indexFile, String usersFile) {
     // Constants
     int numOfKanji = 9;
+    User current = new User();
 
     // Preliminary stuff
     ArrayList<String> indexList = readFileToArrayList(indexFile);
@@ -153,17 +154,31 @@ public class Game {
 
     outer:
     while(userPrompt.hasNextLine()) {
-      String typed = userPrompt.nextLine();
+      String typedUser = userPrompt.nextLine();
       for(int i = 0; i < userList.size(); i++) {
-        if(userList.get(i).getUsername().equals(typed)) {
+        if(userList.get(i).getUsername().equals(typedUser)) {
           System.out.print("Type password: ");
-          break outer;
+          while(userPrompt.hasNextLine()) {
+            String typedPass = userPrompt.nextLine();
+            if(userList.get(i).getPassword().equals(typedPass)) {
+              current = userList.get(i);
+              System.out.println("Playing as: " + current.getUsername());
+              break outer;
+            }
+            System.out.print("Try again: ");
+          }
         }
       }
       System.out.print("Try again: ");
     }
     // Start game, set timer, record points
-
+    for(int i = 0; i < runningGame.currentKanji.length; i++) {
+      if(i != 0 && i % 3 == 0) {
+        System.out.println();
+      }
+      System.out.print(runningGame.currentKanji[i].getKanji() + " ");
+    }
+    System.out.println();
     // When game ends:
     // - save points to user
     // - stop timer
