@@ -149,7 +149,7 @@
 治:じ:なお（る）:to treat
 自:じ: :self
 辞:じ: :word
-式:しき: :ceremoy
+式:しき: :ceremony
 七:しち:なな:seven
 失:しつ:うしな（う）:to lose
 室:しつ: :room

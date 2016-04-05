@@ -133,19 +133,34 @@ public class Game {
     return selection;
   }
 
-  public static void main(String[] args) {
-    // Prints ArrayList<Character> from INDEX.txt
-    ArrayList<String> indexList = readFileToArrayList("INDEX.txt");
-    ArrayList<String> usersList = readFileToArrayList("USERS.txt");
+  public static void run(String indexFile, String usersFile, ) {
+    // Constants
+    private static final int numOfKanji = 9;
+
+    // Preliminary stuff
+    ArrayList<String> indexList = readFileToArrayList(indexFile);
+    ArrayList<String> usersList = readFileToArrayList(usersFile);
 
     ArrayList<Character> charList = toCharacterList(indexList);
     ArrayList<User> userList = toUserList(usersList);
-    Character[] charArray = characterSelection(charList,9);
 
-    for(int i = 0; i < userList.size(); i++) {
-      User current = userList.get(i);
-      System.out.println(current.getUsername() + " " + current.getPassword());
-    }
+    Character[] charArray = characterSelection(charList,numOfKanji);
+
+    Game runningGame = new Game(charArray);
+    // Ask for user information
+    
+
+    // Start game, set timer, record points
+
+    // When game ends:
+    // - save points to user
+    // - stop timer
+    // - ask to exit or play again
+
+  }
+
+  public static void main(String[] args) {
+    // Prints ArrayList<Character> from INDEX.txt
 
 
 
