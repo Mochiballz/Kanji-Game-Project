@@ -7,12 +7,12 @@ public class Game {
 
   // Variables
   private Character prompt;
-  private Character[] currentKanji;
+  private Character[][] currentKanji;
   private ArrayList<Character> usedKanji;
   private Integer score;
 
   // Constructor
-  public Game(Character[] charArray) {
+  public Game(Character[][] charArray) {
     prompt = null;
     currentKanji = charArray;
     usedKanji = new ArrayList<Character>();
@@ -23,7 +23,7 @@ public class Game {
     return this.prompt;
   }
 
-  public Character[] getCurrentKanji() {
+  public Character[][] getCurrentKanji() {
     return this.currentKanji;
   }
 
@@ -36,17 +36,19 @@ public class Game {
   }
 
   public void setPrompt() {
-    Random rand = new Random();
-    int i = rand.nextInt(this.currentKanji.length);
-    prompt = this.currentKanji[i];
+    Random rand1 = new Random();
+    Random rand2 = new Random();
+    int i = rand1.nextInt(this.currentKanji.length);
+    int j = rand2.nextInt(this.currentKanji[i].length);
+    prompt = this.currentKanji[i][j];
   }
 
   public void addUsedKanji(Character c) {
     this.usedKanji.add(c);
   }
 
-  public void replaceCurrentKanji(int i, Character newChar) {
-    this.currentKanji[i] = newChar;
+  public void replaceCurrentKanji(int i, int j, Character newChar) {
+    this.currentKanji[i][j] = newChar;
   }
 
   public void addPoints(Integer points) {
@@ -121,22 +123,38 @@ public class Game {
     if(c1 == c2) { return true; } return false;
   }
 
-  // Creates a selection of random Characters to choose from in Character[]
-  public static Character[] characterSelection(ArrayList<Character> charList, int init) {
-    Character[] selection = new Character[init];
+  // Creates a selection of random Characters to choose from in Character[][]
+  // n is equal to side of two-dimensional array
+  public static Character[][] characterSelection(ArrayList<Character> charList, int n) {
+    Character [][] selection = new Character[n][n];
 
-    for(int i = 0; i < init; i++) {
-      Character c = pickRandCharacter(charList);
-      selection[i] = c;
+    for(int i = 0; i < selection.length; i++) {
+      for(int j = 0; j < selection[i].length; j++) {
+        Character c = pickRandCharacter(charList);
+        selection[i][j] = c;
+      }
     }
-
     return selection;
+  }
+
+  public static void clearConsole() {
+    System.out.print("\033[H\033[2J");
+    System.out.flush();
   }
 
   public static void run(String indexFile, String usersFile) {
     // Constants
     int numOfKanji = 9;
     User current = new User();
+    String ANSI_RESET = "\u001B[0m";
+    String ANSI_BLACK = "\u001B[30m";
+    String ANSI_RED = "\u001B[31m";
+    String ANSI_GREEN = "\u001B[32m";
+    String ANSI_YELLOW = "\u001B[33m";
+    String ANSI_BLUE = "\u001B[34m";
+    String ANSI_PURPLE = "\u001B[35m";
+    String ANSI_CYAN = "\u001B[36m";
+    String ANSI_WHITE = "\u001B[37m";
 
     // Preliminary stuff
     ArrayList<String> indexList = readFileToArrayList(indexFile);
@@ -145,10 +163,11 @@ public class Game {
     ArrayList<Character> charList = toCharacterList(indexList);
     ArrayList<User> userList = toUserList(usersList);
 
-    Character[] charArray = characterSelection(charList,numOfKanji);
+    Character[][] charArray = characterSelection(charList,numOfKanji);
 
     Game runningGame = new Game(charArray);
     // Ask for user information
+    clearConsole();
     Scanner userPrompt = new Scanner(System.in);
     System.out.print("Please type username: ");
 
@@ -172,12 +191,7 @@ public class Game {
       System.out.print("Try again: ");
     }
     // Start game, set timer, record points
-    for(int i = 0; i < runningGame.currentKanji.length; i++) {
-      if(i != 0 && i % 3 == 0) {
-        System.out.println();
-      }
-      System.out.print(runningGame.currentKanji[i].getKanji() + " ");
-    }
+    clearConsole();
     System.out.println();
     // When game ends:
     // - save points to user
